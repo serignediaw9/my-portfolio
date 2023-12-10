@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.7e25eee8.css","mappings":"AAAA,QACI,WAAY,CAEZ,aAAc,CADd,WAEJ","sources":["components/Navbar/Navbar.css"],"sourcesContent":[".navbar {\n    height: 5rem;\n    width: 100vw;\n    margin: 0 auto;\n}"],"names":[],"sourceRoot":""}
