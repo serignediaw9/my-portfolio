@@ -7,9 +7,9 @@
 }
 
 body {
-    background: rgb(30, 30, 30);
-    color: white;
-    overflow: hidden;
+    background: rgb(239, 231, 223);
+    color: rgb(79, 35, 3);
     overflow-y: scroll;
     
 }
+

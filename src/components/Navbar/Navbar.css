@@ -1,5 +1,49 @@
-.navbar {
-    height: 5rem;
-    width: 100vw;
-    margin: 0 auto;
+/* Navbar.css */
+
+.Navbar {
+  height: 10rem;
+  width: 100vw;
+  max-width: 85rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.desktopMenu {
+  margin-left: auto;
+  margin-right: 20px; /* Adjust the right margin to move menu items to the right */
+  border: 10px solid white;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.logo {
+  font-size: 1.7rem;
+  font-family: 'Roboto', sans-serif;
+  opacity: 1;
+  transition: opacity 0.05s ease;
+}
+
+.Navbar.scrolling .logo {
+  opacity: 0;
+}
+
+.desktopMenuListItem {
+  margin: 0.7rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  color: rgb(79, 35, 3);
+}
+
+.desktopMenuListItem:hover {
+  color: rgb(161, 140, 118);
+  padding-bottom: 0.1rem;
+  border-bottom: 3.5px solid rgb(161, 140, 118);
 }
